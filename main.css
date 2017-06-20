@@ -216,3 +216,11 @@ footer:after {
 	content: "";
 	clear: both;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 960px) {
+	body {
+		background-color: red;
+	}
+}
