@@ -27,8 +27,11 @@
 	</header>
 
 	<div id="main-banner">
-		<!-- Change the picture element -->
-		<img src="images/banner.jpg" alt="banner">
+		<picture>
+			<source srcset="images/banner-s.jpg" media="(max-width: 480px)">
+			<source srcset="images/banner-m.jpg" media="(max-width: 768px)">
+			<source srcset="images/banner.jpg" alt="banner">
+		</picture>
 	</div>
 
 	<main class="wrapper">
